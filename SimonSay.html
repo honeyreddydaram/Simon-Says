@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="SimonSay.css">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=lightbulb" />
+</head>
+<body>
+    <h1>Simon Says Game</h1>
+    <h2>Press any key to START</h2>
+    <div class="buttonContainer">
+        <div class="line-one">
+            <div class="btn red" type="button" id="red"></div>
+            <div class="btn yellow" type="button" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" type="button" id="green"></div>
+            <div class="btn purple" type="button" id="purple"></div>
+        </div>
+        
+        <div class="hintMain">
+            <div class="hint" type = "button">
+                <span class="material-symbols-outlined">lightbulb</span>
+            </div>
+            <div class="hintBox"></div>
+        </div>
+        
+    </div>
+
+    <div class="highscore"></div>
+   
+
+    <script src="SimonSay.js"></script>
+</body>
+</html>

@@ -8,3 +8,5 @@ How to Play:
 - Start the game and watch the color sequence displayed.
 - Repeat the sequence by clicking on the colors in the correct order.
 - Keep playing to beat your high score as the sequences become more challenging!
+
+# Enjoy Playing!
